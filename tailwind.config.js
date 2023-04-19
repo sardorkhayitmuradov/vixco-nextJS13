@@ -6,13 +6,55 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontFamily: {
+      PoppinsRegular: ['PoppinsRegular'],
+      PoppinsMedium: ['PoppinsMedium'],
+      PoppinsSemibold: ['PoppinsSemibold'],
+      PoppinsBold: ['PoppinsBold'],
+    },
+    maxWidth: {
+      xs: '450px',
+      xl: '1240px',
+    },
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        'primary-0': '#020104',
+        'primary-10': '#041C2F',
+        'primary-20': '#08385E',
+        'primary-30': '#0B548E',
+        'primary-40': '#0F70BD',
+        'primary-50': '#148CEC',
+        'primary-60': '#42A3F0',
+        'primary-70': '#71BAF4',
+        'primary-80': '#A1D1F7',
+        'primary-90': '#D0E8FB',
+        'primary-95': '#E7F3FD',
+        'secodary-10': '#220925',
+        'secodary-20': '#47124E',
+        'secodary-30': '#6C1C78',
+        'secodary-40': '#9226A1',
+        'secodary-50': '#B730CA',
+        'secodary-60': '#C756D7',
+        'secodary-70': '#D57FE1',
+        'secodary-80': '#E3AAEB',
+        'secodary-90': '#F0D2F4',
+        'secodary-95': '#F7E6F9',
+        'tonal-50': '#F9FAFB',
+        'tonal-100': '#F1F5F9',
+        'tonal-200': '#E5E7EB',
+        'tonal-300': '#D1D5DB',
+        'tonal-400': '#9CA3AF',
+        'tonal-500': '#6B7280',
+        'tonal-600': '#4B5563',
+        'tonal-700': '#374151',
+        'tonal-800': '#1F2937',
+        'tonal-900': '#111827',
       },
+      dropShadow: {
+        'shadow-1': '0px 3.22197px 20.5411px rgba(94, 95, 96, 0.14)',
+        'shadow-2': '0px 3.4508px 22px rgba(148, 148, 148, 0.14)',
+      }
     },
   },
   plugins: [],
-}
+};

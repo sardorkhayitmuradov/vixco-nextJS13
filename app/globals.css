@@ -2,6 +2,84 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  @font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../public/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../public/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'PoppinsSemibold';
+    src: url('../public/fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'PoppinsBold';
+    src: url('../public/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
 body {
+  height: 100%;
   font-family: 'Poppins', sans-serif;
+}
+
+.linear-txt-1 {
+  background: linear-gradient(90deg, #148cec -0.08%, #19ccef 22.67%);
+  backdrop-filter: blur(37.5px);
+}
+
+.linear-txt-2 {
+  background: linear-gradient(90.01deg, #148cec -17.1%, #145381 57.47%);
+  backdrop-filter: blur(37.5px);
+}
+
+.linear-txt-3 {
+  background: linear-gradient(90deg, #148cec 38.91%, #19ccef 60.42%);
+  backdrop-filter: blur(37.5px);
+}
+
+.linear-bg-1 {
+  background: linear-gradient(107.64deg, #19C5EF -6.04%, #7FBBED 57.92%, #E3AAEB 119.83%);
+}
+
+.linear-bg-2 {
+  background: linear-gradient(180deg, #19EFDA 0%, #19EFDA 0%, #19EFDA 0.01%, #16BEE3 50%, rgba(20, 140, 236, 0.52) 100%);
+}
+
+.linear-bg-3 {
+  background: linear-gradient(103.32deg, #19C5EF -35.21%, #7FBBED 18.46%, #E3AAEB 70.9%);
+}
+
+.linear-bg-4 {
+  background: linear-gradient(175.92deg, #19CCEF -70.69%, #7EBBED 21.69%, #E3AAEB 114.06%);
 }
