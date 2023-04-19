@@ -14,7 +14,7 @@ const Header = () => {
     console.log('Selected option:', option);
   };
   return (
-    <header className='bg-transparent py-9'>
+    <header className='py-9'>
       <div className='max-w-xl w-full mx-auto flex items-center justify-between'>
         <Link href='/'>
           <Image src={logo} alt='Picture of the author' />
@@ -22,42 +22,42 @@ const Header = () => {
         <nav className='max-w-[760px] w-full'>
           <ul className='flex items-center justify-between'>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 About
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 Advantages
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 Vixpay
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 Solution
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 VIXCO Token
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 RoadMap
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 Notice
               </Link>
             </li>
             <li>
-              <Link href={''} className='p-2 font-PoppinsMedium'>
+              <Link href={''} className='p-2 font-PoppinsMedium text-base-medium text-tonal-600'>
                 Block scan
               </Link>
             </li>

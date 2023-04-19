@@ -18,7 +18,7 @@ const LanguageSwitcher = ({ options, onChange }) => {
   };
 
   return (
-    <div className='relative cursor-pointer font-PoppinsMedium' onClick={toggleDropdown}>
+    <div className='relative cursor-pointer font-PoppinsMedium text-base-medium text-tonal-600' onClick={toggleDropdown}>
       <div className='flex p-2'>
         {selectedOption.label}
         {

@@ -16,6 +16,25 @@ module.exports = {
       xs: '450px',
       xl: '1240px',
     },
+    fontSize: {
+      "sm-regular": ['14px', '150%'],
+      "base-regular": ['16px', '135%'],
+      "lg-regular": ['18px', '180%'],
+
+      "sm-medium": ['14px', '135%'],
+      "base-medium": ['16px', '135%'],
+      "lg-medium": ['18px', '135%'],
+      
+      "lg-semibold": ['18px', '135%'],
+      "lg-semibold": ['36px', '135%'],
+
+      "base-bold": ['16px', '135%'],
+      "2lg-bold": ['24px', '120%'],
+      "4xl-bold": ['40px', '135%'],
+      "5xl-bold": ['42px', '135%'],
+      "6xl-bold": ['48px', '135%'],
+      "7xl-bold": ['64px', '135%']
+    },
     extend: {
       colors: {
         'primary-0': '#020104',
