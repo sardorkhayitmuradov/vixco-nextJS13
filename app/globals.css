@@ -55,31 +55,59 @@ body {
 
 .linear-txt-1 {
   background: linear-gradient(90deg, #148cec -0.08%, #19ccef 22.67%);
-  backdrop-filter: blur(37.5px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .linear-txt-2 {
-  background: linear-gradient(90.01deg, #148cec -17.1%, #145381 57.47%);
-  backdrop-filter: blur(37.5px);
+  background: linear-gradient(90deg, #148CEC -17.1%, #145381 57.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .linear-txt-3 {
   background: linear-gradient(90deg, #148cec 38.91%, #19ccef 60.42%);
-  backdrop-filter: blur(37.5px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .linear-bg-1 {
-  background: linear-gradient(107.64deg, #19C5EF -6.04%, #7FBBED 57.92%, #E3AAEB 119.83%);
+  background: linear-gradient(
+    107.64deg,
+    #19c5ef -6.04%,
+    #7fbbed 57.92%,
+    #e3aaeb 119.83%
+  );
 }
 
 .linear-bg-2 {
-  background: linear-gradient(180deg, #19EFDA 0%, #19EFDA 0%, #19EFDA 0.01%, #16BEE3 50%, rgba(20, 140, 236, 0.52) 100%);
+  background: linear-gradient(
+    180deg,
+    #19efda 0%,
+    #19efda 0%,
+    #19efda 0.01%,
+    #16bee3 50%,
+    rgba(20, 140, 236, 0.52) 100%
+  );
 }
 
 .linear-bg-3 {
-  background: linear-gradient(103.32deg, #19C5EF -35.21%, #7FBBED 18.46%, #E3AAEB 70.9%);
+  background: linear-gradient(
+    103.32deg,
+    #19c5ef -35.21%,
+    #7fbbed 18.46%,
+    #e3aaeb 70.9%
+  );
 }
 
 .linear-bg-4 {
-  background: linear-gradient(175.92deg, #19CCEF -70.69%, #7EBBED 21.69%, #E3AAEB 114.06%);
+  background: linear-gradient(
+    175.92deg,
+    #19ccef -70.69%,
+    #7ebbed 21.69%,
+    #e3aaeb 114.06%
+  );
 }

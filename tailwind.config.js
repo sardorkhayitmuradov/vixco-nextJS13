@@ -19,7 +19,7 @@ module.exports = {
     fontSize: {
       "sm-regular": ['14px', '150%'],
       "base-regular": ['16px', '135%'],
-      "lg-regular": ['18px', '180%'],
+      "lg-regular": ['18px', '140%'],
 
       "sm-medium": ['14px', '135%'],
       "base-medium": ['16px', '135%'],
@@ -34,6 +34,14 @@ module.exports = {
       "5xl-bold": ['42px', '135%'],
       "6xl-bold": ['48px', '135%'],
       "7xl-bold": ['64px', '135%']
+    },
+    borderRadius: {
+      5: "5px",
+      10: "10px",
+      15: "15px",
+      20: "20px",
+      25: "15px",
+      30: "30px",
     },
     extend: {
       colors: {
@@ -69,7 +77,7 @@ module.exports = {
         'tonal-800': '#1F2937',
         'tonal-900': '#111827',
       },
-      dropShadow: {
+      boxShadow: {
         'shadow-1': '0px 3.22197px 20.5411px rgba(94, 95, 96, 0.14)',
         'shadow-2': '0px 3.4508px 22px rgba(148, 148, 148, 0.14)',
       }

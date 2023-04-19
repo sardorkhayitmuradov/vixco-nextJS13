@@ -22,7 +22,7 @@ const LanguageSwitcher = ({ options, onChange }) => {
       <div className='flex p-2'>
         {selectedOption.label}
         {
-            isOpen ? <Image src={switchIcon} alt='switch moder' className='ml-1 rotate-180 duration-100' /> : <Image src={switchIcon} alt='switch moder' className='ml-1 duration-100' />
+            isOpen ? <Image src={switchIcon} alt='switch moder' className='ml-1 rotate-180 duration-300' /> : <Image src={switchIcon} alt='switch moder' className='ml-1 duration-300' />
         }
       </div>
       {isOpen && (

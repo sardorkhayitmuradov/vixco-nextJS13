@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main>
       <section className=''>
-        children
+        chil
       </section>
     </main>
   )
