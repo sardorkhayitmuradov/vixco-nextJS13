@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        isHeaderWhite ? 'bg-white duration-300 z-10' : 'bg-transparent duration-300'
+        isHeaderWhite ? 'bg-white duration-300 z-10 shadow-shadow-1 py-6' : 'bg-transparent duration-300'
       } py-9 fixed w-full left-0 top-0 z-10`}
     >
       <div className='max-w-xl w-full mx-auto flex items-center justify-between'>
