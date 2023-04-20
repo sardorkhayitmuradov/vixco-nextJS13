@@ -38,18 +38,14 @@
   margin: 0;
 }
 
-#__next {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
 main {
   flex-grow: 1;
 }
 
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -111,3 +107,4 @@ body {
     #e3aaeb 114.06%
   );
 }
+/* border: 2px solid; border-image-source: linear-gradient(103.32deg, #19C5EF -35.21%, #7FBBED 18.46%, #E3AAEB 70.9%); */
