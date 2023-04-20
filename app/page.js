@@ -5,7 +5,13 @@ import about from '../public/assets/images/about.svg';
 import bulb from '../public/assets/images/light-bulb.svg';
 import proccess from '../public/assets/images/proccess.svg';
 import dgMarketingVixpay from '../public/assets/images/dg-marketing-vixco.svg';
-import vixpayApp from '../public/assets/images/vixco-app.png'
+import vixpayApp from '../public/assets/images/vixco-app.png';
+import googlePlay from '../public/assets/images/play-market.svg';
+import appStore from '../public/assets/images/app-store.svg';
+import number from '../public/assets/images/number.svg';
+import vixcoPos from '../public/assets/images/vixco-b-pos.svg';
+import dgSystem from '../public/assets/images/dg-system.svg';
+import vixpaySystem from '../public/assets/images/vixo-payment-system.png';
 
 export default function Home() {
   return (
@@ -148,25 +154,138 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className='pt-[60px] pb-[150px]'>
         <div className='max-w-xl mx-auto w-full bg-[url("../public/assets/images/vixpay-app.svg")] bg-cover bg-no-repeat h-[575px] pt-[70px] flex items-start justify-between px-[100px]'>
-          <div className=''>
-            <h3 className='text-4xl-bold font-PoppinsBold text-white'>Vixpay app</h3>
+          <div>
+            <h3 className='text-4xl-bold font-PoppinsBold text-white'>
+              Vixpay app
+            </h3>
             <hr className='inline-block bg-white p-[1px] w-[13%] mb-[70px]' />
-            <Image src={vixpayApp} alt='vixpayApp'  className='absolute ml-[50px]' />
+            <Image
+              src={vixpayApp}
+              alt='vixpayApp'
+              className='absolute ml-[50px]'
+            />
           </div>
           <div className='max-w-[522px] w-full'>
-            <h5 className='text-lg-medium font-PoppinsMedium text-white text-right'>FOR YOUR BUSINESS</h5>
-            <p>VIXPAY is a blockchain platform that connects merchants and consumers. It can be easily used at merchants nationwide without complicated sign-up or charging procedures, while supporting the rewards and payment functions of Vixpay. In particular, focusing on the convenience of consumers and merchants, you can use it simply by presenting a QR code and entering a password.</p>
-            <div>
-              <Button>
-              Google play
+            <h5 className='text-lg-medium font-PoppinsMedium text-white text-right mb-[84px]'>
+              FOR YOUR BUSINESS
+            </h5>
+            <p className='text-md-regular text-white mb-12 font-PoppinsRegular'>
+              VIXPAY is a blockchain platform that connects merchants and
+              consumers. It can be easily used at merchants nationwide without
+              complicated sign-up or charging procedures, while supporting the
+              rewards and payment functions of Vixpay. In particular, focusing
+              on the convenience of consumers and merchants, you can use it
+              simply by presenting a QR code and entering a password.
+            </p>
+            <div className='flex items-center'>
+              <Button
+                className={
+                  'rounded-[46px] border-[2px] border-white py-[13px] hover:scale-[1.05] duration-150 px-[42px] flex items-center text-lg-medium text-white'
+                }
+              >
+                <Image
+                  src={googlePlay}
+                  alt='google play'
+                  className='mr-[10px]'
+                />
+                Google play
               </Button>
-              <Button>
+              <Button
+                className={
+                  'rounded-[46px] border-[2px] border-white py-[13px] hover:scale-[1.05] duration-150 px-[42px] flex items-center ml-[26px] text-lg-medium text-white'
+                }
+              >
+                <Image src={appStore} alt='google play' className='mr-[10px]' />
                 App Store
               </Button>
             </div>
           </div>
+        </div>
+      </section>
+      <section className='pt-[50px] pb-[118px] bg-[url("../public/assets/images/VIXCO-solution-background.svg")] bg-no-repeat bg-cover bg-center'>
+        <div className='max-w-xl mx-auto w-full'>
+          <div className='mb-[55px]'>
+            <h3 className='text-4xl-bold font-PoppinsBold'>
+              <span className='linear-txt-1'>VIXCO</span> Solution
+            </h3>
+            <hr className='inline-block bg-black p-[2px] w-[3.2%] mb-5' />
+          </div>
+          <ul className='flex flex-col gap-[70px]'>
+            <li className='flex items-center'>
+              <div className='flex items-start max-w-[522px] w-full mx-auto'>
+                <div className='relative flex items-center justify-center'>
+                  <Image src={number} alt='numbers' width={30} height={30} />
+                  <p className='text-base-regular absolute font-PoppinsMedium text-white'>
+                    1
+                  </p>
+                </div>
+                <div className='ml-[15px] max-w-[478px] w-full'>
+                  <p className='text-2lg-bold font-PoppinsBold text-tonal-800 max-w-[250px] w-full mb-[31px]'>
+                    VIXCO Blockchain POS Terminal
+                  </p>
+                  <p className='text-tonal-500 text-md-regular font-PoppinsRegular'>
+                    Blockchain POS and kiosk terminals connected to VIXCO
+                    Working Node are the core infrastructure of the VIXCO
+                    platform. These terminals come equipped with wallets,
+                    allowing users to earn or pay with VIXCO Point tokens and
+                    serving as a connection point between customers and stores.
+                  </p>
+                </div>
+              </div>
+              <Image src={vixcoPos} alt='vixco terminal' />
+            </li>
+            <li className='flex flex-row-reverse items-center'>
+              <div className='flex items-start max-w-[549px] w-full mx-auto'>
+                <div className='relative flex items-center justify-center'>
+                  <Image src={number} alt='numbers' width={30} height={30} />
+                  <p className='text-base-regular absolute font-PoppinsMedium text-white'>
+                    2
+                  </p>
+                </div>
+                <div className='ml-[15px] max-w-[505px] w-full'>
+                  <p className='text-2lg-bold font-PoppinsBold text-tonal-800 max-w-[250px] w-full mb-[31px]'>
+                    Digital Marketing System
+                  </p>
+                  <p className='text-tonal-500 text-md-regular font-PoppinsRegular'>
+                    The digital marketing system using blockchain POS and kiosk
+                    terminals, and cloud-based POS systems is a powerful tool
+                    for providing efficient and differentiated marketing
+                    strategies to stores. Hyperlocal digital marketing system
+                    can be used as an advertising platform for companies that
+                    want to advertise in the area. Stores can receive fees from
+                    companies and post advertisements on kiosk terminals.
+                  </p>
+                </div>
+              </div>
+              <Image src={dgSystem} alt='vixco terminal' />
+            </li>
+            <li className='flex items-center'>
+              <div className='flex items-start max-w-[522px] w-full mx-auto'>
+                <div className='relative flex items-center justify-center'>
+                  <Image src={number} alt='numbers' width={30} height={30} />
+                  <p className='text-base-regular absolute font-PoppinsMedium text-white'>
+                    3
+                  </p>
+                </div>
+                <div className='ml-[15px] max-w-[478px] w-full'>
+                  <p className='text-2lg-bold font-PoppinsBold text-tonal-800 max-w-[250px] w-full mb-[31px]'>
+                    VIXPAY Payment System
+                  </p>
+                  <p className='text-tonal-500 text-md-regular font-PoppinsRegular'>
+                    VIXPAY is a blockchain-based payment system that provides a
+                    convenient solution for customers to accumulate and pay with
+                    VIXCO Point tokens using a mobile app. Combined with
+                    blockchain POS and kiosk terminals, it creates an
+                    environment where customers can easily and quickly
+                    accumulate and use points.
+                  </p>
+                </div>
+              </div>
+              <Image src={vixpaySystem} alt='vixco terminal' />
+            </li>
+          </ul>
         </div>
       </section>
     </main>
