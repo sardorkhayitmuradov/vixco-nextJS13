@@ -4,6 +4,7 @@ import Button from '@/components/UI/button';
 import about from '../public/assets/images/about.svg';
 import bulb from '../public/assets/images/light-bulb.svg';
 import proccess from '../public/assets/images/proccess.svg';
+import dgMarketingVixpay from '../public/assets/images/dg-marketing-vixco.svg';
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-        <div className='max-w-[1000px] hover:scale-105 duration-300 mx-auto w-full p-5 rounded-20 shadow-shadow-1 absolute bg-white -bottom-20 text-center left-1/2 transform -translate-x-1/2'>
+        <div className='max-w-[1000px] hover:scale-105 duration-300 mx-auto w-full p-5 rounded-20 shadow-shadow-1 absolute bg-white -bottom-20 text-center left-1/2 transform -translate-x-1/2 cursor-pointer'>
           <h3 className='text-2lg-bold font-PoppinsBold linear-txt-3 mb-[15px] text-center'>
             VIXCO x VIXPAY
           </h3>
@@ -110,6 +111,39 @@ export default function Home() {
                 a high level of service quality.
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+      <section className='pt-[66px] pb-[60px]'>
+        <div className='max-w-xl w-full mx-auto'>
+          <hr className='inline-block linear-bg-3 p-[2px] w-[6.2%] mb-5' />
+          <div className='w-full flex justify-between'>
+            <div>
+              <div className='mb-[73px]'>
+                <h2 className='text-tonal-800 text-4xl-bold font-PoppinsBold max-w-[510px]'>
+                  Digital marketing based on <span>VIXPAY</span> data{' '}
+                </h2>
+              </div>
+              <Image src={dgMarketingVixpay} alt='dg-marketing-vixpay' />
+            </div>
+            <div className='max-w-[506px] w-full'>
+              <p className='mb-[52px] text-md-regular font-PoppinsRegular text-tonal-800'>
+                VIXCO provides various services on its platform using
+                Ethereum-based tokens, creating value for merchants and
+                customers through integrated solutions for payment, digital
+                marketing, and CRM services. This forms the foundation for the
+                continuous activation and growth of the VIXCO ecosystem,
+                allowing it to develop as an innovative blockchain-based payment
+                and marketing platform.{' '}
+              </p>
+              <p className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                Customer information and payment data obtained through the
+                VIXPAY service become valuable digital marketing assets. Using
+                this information, merchants can analyze customer purchase
+                patterns, preferences, and behaviors to establish effective
+                marketing strategies.
+              </p>
+            </div>
           </div>
         </div>
       </section>
