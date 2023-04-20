@@ -8,9 +8,9 @@ import proccess from '../public/assets/images/proccess.svg';
 export default function Home() {
   return (
     <main className='h-full'>
-      <section className=' pb-[160px] pt-[116px] bg-[url("../public/assets/images/hero-bg.svg")] bg-cover bg-no-repeat relative'>
-        <div className='bg-[url("../public/assets/images/vixco-hero.svg")] bg-no-repeat bg-[top_50px_right_100px] bg-[length:676px_449px]'>
-          <div className='max-w-xl w-full mx-auto py-12'>
+      <section className='pb-[160px] shadow-hero-shadow pt-[116px] bg-[url("../public/assets/images/hero-bg.svg")] bg-cover bg-no-repeat relative'>
+        <div className='bg-[url("../public/assets/images/vixco-hero.svg")] bg-no-repeat bg-[top_30px_right_100px] bg-[length:676px_449px]'>
+          <div className='max-w-xl w-full mx-auto pt-[63px] pb-12'>
             <h1 className='text-7xl-bold font-PoppinsBold linear-txt-1'>
               VIXCO
             </h1>
@@ -23,14 +23,14 @@ export default function Home() {
             </p>
             <Button
               className={
-                'font-PoppinsMedium text-lg-medium rounded-30 bg-white p-[16px_40px]'
+                'font-PoppinsMedium text-lg-medium rounded-30 bg-white p-[16px_40px] hover:text-white hover:bg-transparent hover:border-white hover:shadow-shadow-button duration-150'
               }
             >
               WHITEPAPER
             </Button>
           </div>
         </div>
-        <div className='max-w-[1000px] mx-auto w-full p-5 rounded-20 shadow-shadow-1 absolute bg-white -bottom-20 text-center left-1/2 transform -translate-x-1/2'>
+        <div className='max-w-[1000px] hover:scale-105 duration-300 mx-auto w-full p-5 rounded-20 shadow-shadow-1 absolute bg-white -bottom-20 text-center left-1/2 transform -translate-x-1/2'>
           <h3 className='text-2lg-bold font-PoppinsBold linear-txt-3 mb-[15px] text-center'>
             VIXCO x VIXPAY
           </h3>
@@ -77,7 +77,7 @@ export default function Home() {
       </section>
       <section className='pt-[57px] pb-[150px] bg-[url("../public/assets/images/advantages-form.svg")] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-xl w-full mx-auto mb-[52px]'>
-          <div className='max-w-[772px] w-full'>
+          <div className='max-w-[772px] w-full mb-[51px]'>
             <hr className='inline-block linear-bg-3 p-[2px] w-[10%]' />
             <h2 className='text-tonal-800 text-4xl-bold font-PoppinsBold'>
               The advantages of VIXCO's global network configuration include:
@@ -87,24 +87,24 @@ export default function Home() {
           <div className='flex items-center'>
             <Image src={proccess} alt='proccess' className='h-full' />
             <ul className='h-full flex flex-col justify-between'>
-              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white mb-[23px] rounded-[18px] max-w-[820px] w-full ml-[11px] hover:bg-primary-50 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
+              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white mb-[23px] rounded-[18px] max-w-[820px] w-full ml-[11px] text-base-regular hover:bg-primary-50 hover:shadow-shadow-2 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
                 Providing consistent services to users and merchants: By
                 consistently providing services such as cross-border point
                 payments, digital marketing, and membership services, both users
                 and merchants experience convenience.
               </li>
-              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white mb-[23px] rounded-[18px] max-w-[820px] w-full ml-[11px] hover:bg-primary-50 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
+              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white mb-[23px] rounded-[18px] max-w-[820px] w-full ml-[11px] text-base-regular hover:bg-primary-50 hover:shadow-shadow-2 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
                 Opportunities for cross-border cooperation and expansion: By
                 linking Super Nodes and Working Nodes in each country, VIXCO
                 fosters international cooperation and provides business
                 expansion opportunities in the global market.
               </li>
-              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white mb-[23px] rounded-[18px] max-w-[820px] w-full ml-[11px] hover:bg-primary-50 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
+              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white mb-[23px] rounded-[18px] max-w-[820px] w-full ml-[11px] text-base-regular hover:bg-primary-50 hover:shadow-shadow-2 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
                 Offering global reward point memberships: Users can enjoy global
                 reward point memberships through the VIXCO platform, making
                 cross-border transactions smoother.
               </li>
-              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white rounded-[18px] max-w-[820px] w-full ml-[11px] hover:bg-primary-50 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
+              <li className='flex items-center h-[112px] px-[25px] shadow-shadow-2 bg-white rounded-[18px] max-w-[820px] w-full ml-[11px] text-base-regular hover:bg-primary-50 hover:shadow-shadow-2 hover:text-white cursor-pointer duration-300 hover:ml-[41px]'>
                 Stable transaction environment: VIXCO Tokens staked in Super
                 Nodes and Working Nodes ensure transaction stability and provide
                 a high level of service quality.

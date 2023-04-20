@@ -81,6 +81,8 @@ module.exports = {
       boxShadow: {
         'shadow-1': '0px 3.22197px 20.5411px rgba(94, 95, 96, 0.14)',
         'shadow-2': '0px 3.4508px 22px rgba(148, 148, 148, 0.14)',
+        "hero-shadow": "0px 4px 4px rgba(0, 0, 0, 0.25)",
+        "shadow-button": "0px 0px 1px 3px rgba(255, 255, 255, 1)"
       }
     },
   },
