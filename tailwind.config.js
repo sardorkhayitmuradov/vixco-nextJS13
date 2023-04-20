@@ -19,6 +19,7 @@ module.exports = {
     fontSize: {
       "sm-regular": ['14px', '150%'],
       "base-regular": ['16px', '135%'],
+      "md-regular": ['16px', '185%'],
       "lg-regular": ['18px', '140%'],
 
       "sm-medium": ['14px', '135%'],
