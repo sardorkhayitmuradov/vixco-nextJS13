@@ -26,7 +26,7 @@ const LanguageSwitcher = ({ options, onChange }) => {
         }
       </div>
       {isOpen && (
-        <div className='absolute top-full left-0 bg-[#fff] border-[#ccc] rounded-sm shadow-[0px_2px_100px_rgba(0,0,0,0.1)] z-[1] w-[80px]'>
+        <div className='absolute top-full left-0 bg-[#fff] border-[#ccc] rounded-5 shadow-[0px_2px_100px_rgba(0,0,0,0.1)] z-10 w-[80px]'>
           {options.map((option, index) => (
             <div
               key={index}
