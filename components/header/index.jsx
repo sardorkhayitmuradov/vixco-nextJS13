@@ -23,7 +23,7 @@ const Header = () => {
     };
   }, []);
 
-  const isHeaderWhite = scrollPosition > 116;
+  const isHeaderWhite = scrollPosition > 80;
   const handleOptionChange = (option) => {
     console.log('Selected option:', option);
   };

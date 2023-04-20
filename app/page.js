@@ -5,6 +5,7 @@ import about from '../public/assets/images/about.svg';
 import bulb from '../public/assets/images/light-bulb.svg';
 import proccess from '../public/assets/images/proccess.svg';
 import dgMarketingVixpay from '../public/assets/images/dg-marketing-vixco.svg';
+import vixpayApp from '../public/assets/images/vixco-app.png'
 
 export default function Home() {
   return (
@@ -143,6 +144,27 @@ export default function Home() {
                 patterns, preferences, and behaviors to establish effective
                 marketing strategies.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className='max-w-xl mx-auto w-full bg-[url("../public/assets/images/vixpay-app.svg")] bg-cover bg-no-repeat h-[575px] pt-[70px] flex items-start justify-between px-[100px]'>
+          <div className=''>
+            <h3 className='text-4xl-bold font-PoppinsBold text-white'>Vixpay app</h3>
+            <hr className='inline-block bg-white p-[1px] w-[13%] mb-[70px]' />
+            <Image src={vixpayApp} alt='vixpayApp'  className='absolute ml-[50px]' />
+          </div>
+          <div className='max-w-[522px] w-full'>
+            <h5 className='text-lg-medium font-PoppinsMedium text-white text-right'>FOR YOUR BUSINESS</h5>
+            <p>VIXPAY is a blockchain platform that connects merchants and consumers. It can be easily used at merchants nationwide without complicated sign-up or charging procedures, while supporting the rewards and payment functions of Vixpay. In particular, focusing on the convenience of consumers and merchants, you can use it simply by presenting a QR code and entering a password.</p>
+            <div>
+              <Button>
+              Google play
+              </Button>
+              <Button>
+                App Store
+              </Button>
             </div>
           </div>
         </div>
