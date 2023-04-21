@@ -1,3 +1,4 @@
+// 'use client'
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import Button from '@/components/UI/button';
@@ -213,7 +214,7 @@ export default function Home() {
             <hr className='inline-block bg-black p-[2px] w-[3.2%] mb-5' />
           </div>
           <ul className='flex flex-col gap-[70px]'>
-            <li className='flex items-center'>
+            <li className='flex items-center' data-aos="fade-up-right">
               <div className='flex items-start max-w-[522px] w-full mx-auto'>
                 <div className='relative flex items-center justify-center'>
                   <Image src={number} alt='numbers' width={30} height={30} />
@@ -236,7 +237,7 @@ export default function Home() {
               </div>
               <Image src={vixcoPos} alt='vixco terminal' />
             </li>
-            <li className='flex flex-row-reverse items-center'>
+            <li className='flex flex-row-reverse items-center fade-up-left'>
               <div className='flex items-start max-w-[549px] w-full mx-auto'>
                 <div className='relative flex items-center justify-center'>
                   <Image src={number} alt='numbers' width={30} height={30} />
