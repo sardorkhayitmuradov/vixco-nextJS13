@@ -16,7 +16,15 @@ import vixpaySystem from '../public/assets/images/vixo-payment-system.png';
 import erp from '../public/assets/images/ethereum.svg';
 import bloackChainVixco from '../public/assets/images/vixco-token.svg';
 import tokenDiagram from '../public/assets/images/vixco-token-diagram.svg';
-import gl33 from '../public/assets/images/GL1.svg';
+import paymentReserve from '../public/assets/images/payment-reserve.svg';
+import ecoRewards from '../public/assets/images/eco-rewards.svg';
+import operation from '../public/assets/images/operation.svg';
+import partnershipReverse from '../public/assets/images/partnershipreserve.svg';
+import marketing from '../public/assets/images/marketing.svg';
+import team from '../public/assets/images/team.svg';
+import advisors from '../public/assets/images/advicers.svg';
+import earlyInvestor from '../public/assets/images/earlyinvester.svg';
+import tokenSale from '../public/assets/images/tokensale.svg';
 
 export default function Home() {
   return (
@@ -329,7 +337,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className='bg-[url("../public/assets/images/token-information-form.svg")] bg-no-repeat bg-[center_left] bg-contain'>
+      <section className='bg-[url("../public/assets/images/token-information-form.svg")] bg-no-repeat bg-[center_left_-200px] pt-[47px] pb-[90px]'>
         <div className='max-w-xl mx-auto w-full flex items-center justify-between'>
           <Image src={tokenDiagram} alt='diagram' className='mx-auto' />
           <div className='mb-5 max-w-[573px] w-full'>
@@ -348,28 +356,120 @@ export default function Home() {
               </div>
               <div>
                 <h4 className='mb-[4px] font-PoppinsBold text-base-bold text-primary-50'>
-                  Token Name :
+                  Total Supply:
                 </h4>
                 <p className='text-base-medium text-secondary-10 font-PoppinsMedium'>
-                  VIXCO (Ticker : VIX)
+                  200,000,000 VIX
                 </p>
               </div>
               <div>
                 <h4 className='mb-[4px] font-PoppinsBold text-base-bold text-primary-50'>
-                  Token Name :
+                  Protocol:
                 </h4>
                 <p className='text-base-medium text-secondary-10 font-PoppinsMedium'>
-                  VIXCO (Ticker : VIX)
+                  ERC-20
                 </p>
               </div>
             </div>
-            <ul>
+            <ul className='flex flex-col gap-[25px]'>
               <li className='flex items-center justify-between'>
                 <div className='flex items-center'>
-                  <Image src={gl33} alt='gl33' />
-                  <p className='text-sm-medium text-tonal-800'>33% Payment Reserve</p>
+                  <Image src={paymentReserve} alt='paymentReserve' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    33% Payment Reserve
+                  </p>
                 </div>
-                660,000,000 VIX
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  660,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={ecoRewards} alt='ecoRewards' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    17% Eco-Rewards
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  340,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={operation} alt='operation' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    15% Operation
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  300,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={partnershipReverse} alt='partnershipReverse' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    13% Partnership Reserve
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  260,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={marketing} alt='marketing' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    7% Marketing
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  140,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={team} alt='team' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    5% Team
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  100,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={advisors} alt='advisors' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    5% Advisors
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  100,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={earlyInvestor} alt='earlyInvestor' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    4.9% Early Investor
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  98,000,000 VIX
+                </p>
+              </li>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={tokenSale} alt='tokenSale' />
+                  <p className='text-sm-medium text-tonal-800 font-PoppinsMedium ml-[8px]'>
+                    0.1% Token Sale
+                  </p>
+                </div>
+                <p className='text-sm-medium text-tonal-800 font-PoppinsMedium w-1/2 text-left'>
+                  2,000,000 VIX
+                </p>
               </li>
             </ul>
           </div>
