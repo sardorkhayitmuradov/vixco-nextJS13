@@ -13,6 +13,10 @@ import number from '../public/assets/images/number.svg';
 import vixcoPos from '../public/assets/images/vixco-b-pos.svg';
 import dgSystem from '../public/assets/images/dg-system.svg';
 import vixpaySystem from '../public/assets/images/vixo-payment-system.png';
+import erp from '../public/assets/images/ethereum.svg';
+import bloackChainVixco from '../public/assets/images/vixco-token.svg';
+import tokenDiagram from '../public/assets/images/vixco-token-diagram.svg';
+import gl33 from '../public/assets/images/GL1.svg';
 
 export default function Home() {
   return (
@@ -208,13 +212,13 @@ export default function Home() {
       <section className='pt-[50px] pb-[118px] bg-[url("../public/assets/images/VIXCO-solution-background.svg")] bg-no-repeat bg-cover bg-center'>
         <div className='max-w-xl mx-auto w-full'>
           <div className='mb-[55px]'>
-            <h3 className='text-4xl-bold font-PoppinsBold'>
+            <h3 className='text-4xl-bold font-PoppinsBold text-tonal-800'>
               <span className='linear-txt-1'>VIXCO</span> Solution
             </h3>
             <hr className='inline-block bg-black p-[2px] w-[3.2%] mb-5' />
           </div>
           <ul className='flex flex-col gap-[70px]'>
-            <li className='flex items-center' data-aos="fade-up-right">
+            <li className='flex items-center' data-aos='fade-up-right'>
               <div className='flex items-start max-w-[522px] w-full mx-auto'>
                 <div className='relative flex items-center justify-center'>
                   <Image src={number} alt='numbers' width={30} height={30} />
@@ -287,6 +291,88 @@ export default function Home() {
               <Image src={vixpaySystem} alt='vixco terminal' />
             </li>
           </ul>
+        </div>
+      </section>
+      <section className='pt-[90px] pb-[47px]'>
+        <div className='max-w-xl mx-auto w-full'>
+          <div className='flex items-center justify-between mb-[50px]'>
+            <h3 className='text-4xl-bold font-PoppinsBold text-tonal-800'>
+              <span className='linear-txt-1'>VIXCO</span> Token
+            </h3>
+            <div className='flex items-center'>
+              <Image src={erp} alt='erp' />
+              <p className='text-2lg-bold font-PoppinsBold text-primary-50 ml-[10px]'>
+                ERC - 20
+              </p>
+            </div>
+          </div>
+          <p className='text-md-regular font-PoppinsRegular text-tonal-800 mb-5'>
+            VIXCO is an ERC20 token issued on the Ethereum blockchain network,
+            and it is a utility token that can be exchanged with Point tokens
+            used on the VIXCO platform. The VIXCO platform provides payment,
+            digital marketing, CRM services, and additional services to
+            merchants and customers based on a Staking-based token economy. To
+            operate a Working Node, a certain amount of VIXCO tokens must be
+            staked, which allows partners to recruit VIXCO merchants and
+            customers.{' '}
+          </p>
+          <p className='text-md-regular font-PoppinsRegular text-tonal-800 mb-[41px]'>
+            The commission revenue generated on the VIXCO platform is
+            distributed according to the proportion of VIXCO staked in the
+            Working Node, which increases the demand and value of the VIXCO
+            token.
+          </p>
+          <Image
+            src={bloackChainVixco}
+            className='mx-auto'
+            alt='VIXCO Private Blockchain(Working Node)'
+          />
+        </div>
+      </section>
+      <section className='bg-[url("../public/assets/images/token-information-form.svg")] bg-no-repeat bg-[center_left] bg-contain'>
+        <div className='max-w-xl mx-auto w-full flex items-center justify-between'>
+          <Image src={tokenDiagram} alt='diagram' className='mx-auto' />
+          <div className='mb-5 max-w-[573px] w-full'>
+            <hr className='inline-block linear-bg-3 p-[2px] w-[15%] mb-5' />
+            <h3 className='text-4xl-bold font-PoppinsBold text-tonal-800 mb-5'>
+              VIXCO Token Information
+            </h3>
+            <div className='py-[15px] px-[25px] flex items-center justify-between shadow-shadow-1 rounded-[17px] mb-[30px]'>
+              <div>
+                <h4 className='mb-[4px] font-PoppinsBold text-base-bold text-primary-50'>
+                  Token Name :
+                </h4>
+                <p className='text-base-medium text-secondary-10 font-PoppinsMedium'>
+                  VIXCO (Ticker : VIX)
+                </p>
+              </div>
+              <div>
+                <h4 className='mb-[4px] font-PoppinsBold text-base-bold text-primary-50'>
+                  Token Name :
+                </h4>
+                <p className='text-base-medium text-secondary-10 font-PoppinsMedium'>
+                  VIXCO (Ticker : VIX)
+                </p>
+              </div>
+              <div>
+                <h4 className='mb-[4px] font-PoppinsBold text-base-bold text-primary-50'>
+                  Token Name :
+                </h4>
+                <p className='text-base-medium text-secondary-10 font-PoppinsMedium'>
+                  VIXCO (Ticker : VIX)
+                </p>
+              </div>
+            </div>
+            <ul>
+              <li className='flex items-center justify-between'>
+                <div className='flex items-center'>
+                  <Image src={gl33} alt='gl33' />
+                  <p className='text-sm-medium text-tonal-800'>33% Payment Reserve</p>
+                </div>
+                660,000,000 VIX
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
