@@ -108,3 +108,16 @@ body {
   );
 }
 /* border: 2px solid; border-image-source: linear-gradient(103.32deg, #19C5EF -35.21%, #7FBBED 18.46%, #E3AAEB 70.9%); */
+
+.roadmap::-webkit-scrollbar {
+  width: 4px;
+}
+
+.roadmap::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.roadmap::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 0px solid #D1D5DB;
+}

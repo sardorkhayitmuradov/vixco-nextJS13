@@ -25,6 +25,9 @@ import team from '../public/assets/images/team.svg';
 import advisors from '../public/assets/images/advicers.svg';
 import earlyInvestor from '../public/assets/images/earlyinvester.svg';
 import tokenSale from '../public/assets/images/tokensale.svg';
+import Completed from '../public/assets/images/completed.svg';
+import Ongoing from '../public/assets/images/ongoing.svg';
+import Future from '../public/assets/images/future.svg';
 
 export default function Home() {
   return (
@@ -475,6 +478,109 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className='bg-[url("../public/assets/images/RoadMapBackground.svg")] bg-cover bg-no-repeat bg-center py-[90px]'>
+        <div className='max-w-xl mx-auto w-full'>
+          <div className='w-fit mb-[80px]'>
+            <h3 className='text-4xl-bold font-PoppinsBold'>RoadMap</h3>
+            <hr className='inline-block bg-black p-[2px] w-[20%]' />
+          </div>
+          <ul className='flex items-start'>
+            <li className='relative'>
+              <h3 className='text-2lg-bold font-PoppinsBold text-primary-50 absolute left-[38%] transform -translate-x-1/2'>
+                Completed
+              </h3>
+              <Image src={Completed} alt='Completed' />
+              <ul className='absolute left-[12%] top-1/4 overflow-y-scroll h-2/3 roadmap cursor-pointer w-[75%]'>
+                <ul className='flex flex-col gap-[10px] w-[90%]'>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q1 2020: VIXCO project planning
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q2 2020: VIXCO whitepaper release and business model
+                    planning
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q3 2020: VIXCO project payment and blockchain solution
+                    partner, Ibexlab Co., Ltd., joins VIXCO project
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q4 2020: Verification of blockchain payment system in
+                    Kazakhstan (www.yoshop.kz), blockchain POS terminal design,
+                    VIXPAY service planning, and system design
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q1 2021: Development of unmanned loan kiosk beta version,
+                    blockchain POS terminal development, staking & loan service
+                    development
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q2 2021: Wallet and token platform development completed,
+                    blockchain POS terminal development completed, VIXPAY pilot
+                    service opened, staking service development completed
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q3 2021: Blockchain POS terminal release completed, VIXPAY
+                    service launch, PG registration and Rent Pay service launch,
+                    unmanned loan kiosk development, loan service development
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q4 2021: Unmanned loan service launch, Kazakhstan blockchain
+                    POS terminal supply, overseas branch establishment
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q1 2022: VIXPAY financial services (accounts receivable Buy
+                    & Sell) and food supply service for franchisees
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q3 2022: Church donation kiosk pilot service, Kazakhstan
+                    VIXPAY service testing
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q4 2022: Kazakhstan VIXPAY beta service opening
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q1 2023: Bithumb listing and follow-up measures after
+                    listing, Kazakhstan VIXPAY service launch
+                  </li>
+                </ul>
+              </ul>
+            </li>
+            <li className='relative'>
+              <h3 className='text-2lg-bold font-PoppinsBold text-primary-50 absolute left-[40%] transform -translate-x-1/2'>
+                Ongoing
+              </h3>
+              <Image src={Ongoing} alt='ongoing' />
+              <ul className='absolute left-[15%] top-[40%] overflow-y-scroll h-2/3 roadmap cursor-pointer w-[80%]'>
+                <ul className='flex flex-col gap-[10px] w-full'>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q2 2023: Additional domestic and international listings,
+                    VIXPAY blockchain kiosk mass production
+                  </li>
+                </ul>
+              </ul>
+            </li>
+            <li className='relative'>
+              <h3 className='text-2lg-bold font-PoppinsBold text-primary-50 absolute left-[40%] transform -translate-x-1/2'>
+                Future
+              </h3>
+              <Image src={Future} alt='future' />
+              <ul className='absolute left-[15%] top-[32%] overflow-y-scroll h-2/3 roadmap cursor-pointer w-[80%]'>
+                <ul className='flex flex-col gap-[10px] w-full'>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q3 2023: VIXPAY local advertising platform development,
+                    VIXCO Defi service launch
+                  </li>
+                  <li className='text-md-regular font-PoppinsRegular text-tonal-800'>
+                    Q4 2023: VIXPAY local advertising service launch, VIXPAY
+                    additional overseas expansion
+                  </li>
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
     </main>
   );
 }
